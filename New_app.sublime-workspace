@@ -1,0 +1,987 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"str_",
+				"str_replace"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"spl_au",
+				"spl_autoload_register"
+			],
+			[
+				"whi",
+				"width"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"text-s",
+				"text-size-adjust"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"style",
+				"list-style"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"car",
+				"card"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"card",
+				"cardNumber"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"date_time",
+				"date_timestamp_set"
+			],
+			[
+				"POS",
+				"_POST"
+			],
+			[
+				"ses",
+				"session_start"
+			],
+			[
+				"array",
+				"arrayName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"nbr",
+				"nbr1"
+			],
+			[
+				"fe",
+				"femme"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"pre",
+				"prenom"
+			],
+			[
+				"inc",
+				"inclued_get_data"
+			],
+			[
+				"wih",
+				"width"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"col",
+				"col-xs-4"
+			],
+			[
+				"de",
+				"Defaut_color"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"score",
+				"scoreparfram"
+			],
+			[
+				"nb",
+				"nbQuillesParTours"
+			],
+			[
+				"n",
+				"nombredefram"
+			],
+			[
+				"no",
+				"nbQuillesParTours"
+			],
+			[
+				"sco",
+				"scorepartfram"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"bakgrou",
+				"background-repeat"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"co",
+				"col-md-12"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"magi",
+				"margin-bottom"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"o",
+				"col-md-offset-0"
+			],
+			[
+				"righ",
+				"right"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"col-md",
+				"col-md-12"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"le",
+				"lettreW"
+			],
+			[
+				"fo",
+				"for\tfor …"
+			],
+			[
+				"mot",
+				"motDico"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"ta",
+				"tableauJeu"
+			],
+			[
+				"as",
+				"asort"
+			],
+			[
+				"t",
+				"tableauJeu"
+			],
+			[
+				"array_cun",
+				"array_count_values"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"functio",
+				"Function"
+			],
+			[
+				"my",
+				"myIntegre"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"htm",
+				"htmlspecialchars"
+			],
+			[
+				"ht",
+				"htmlspecialchars"
+			],
+			[
+				"arr",
+				"array\t$… = array (…)"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"A",
+				"Array"
+			],
+			[
+				"index",
+				"indexcrypte"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"cry",
+				"crypto"
+			],
+			[
+				"ventes",
+				"ventesRabais"
+			],
+			[
+				"vente",
+				"ventesRegulier"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"dire",
+				"flex-direction"
+			],
+			[
+				"boo",
+				"bottom"
+			],
+			[
+				"a",
+				"animation"
+			],
+			[
+				"anni",
+				"animation-iteration-count"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"ann",
+				"animation"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padin",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"ra",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"texti",
+				"text-align"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"fl",
+				"inline-flex"
+			],
+			[
+				"aligne",
+				"align-content"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"f",
+				"flex-start"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"coo",
+				"cook_score"
+			],
+			[
+				"c",
+				"c_start"
+			],
+			[
+				"cook",
+				"cook_score"
+			],
+			[
+				"onmou",
+				"onmouseover\tAttr"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"ima",
+				"image1"
+			],
+			[
+				"i",
+				"images"
+			],
+			[
+				"b",
+				"background-image"
+			],
+			[
+				"fizz",
+				"fizzbuzz"
+			],
+			[
+				"fiz",
+				"fizzbuzz"
+			],
+			[
+				"chi",
+				"chiffreUser"
+			],
+			[
+				"ques",
+				"questions"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Autoloader.php",
+			"settings":
+			{
+				"buffer_size": 397,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/templates/default.php",
+			"settings":
+			{
+				"buffer_size": 1653,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Database.php",
+			"settings":
+			{
+				"buffer_size": 1077,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"Mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/blogproject",
+		"/C/xampp/htdocs/blogproject/app",
+		"/C/xampp/htdocs/blogproject/pages",
+		"/C/xampp/htdocs/blogproject/pages/templates",
+		"/C/xampp/htdocs/blogproject/sass",
+		"/C/xampp/htdocs/blogproject/web"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/blogproject/README.md",
+		"/C/xampp/htdocs/blogproject/app/Autoloader.php",
+		"/C/Users/br00t/AppData/Local/Temp/Rar$DIa0.992/Database.php",
+		"/C/xampp/htdocs/blogproject/app/Tables/Articles.php",
+		"/C/xampp/htdocs/blogproject/app/Database.php",
+		"/C/xampp/htdocs/blogproject/app/Articles.php",
+		"/C/xampp/htdocs/blogproject/pages/template/default.php",
+		"/C/xampp/htdocs/blogproject/pages/single.php",
+		"/C/xampp/htdocs/blogproject/pages/home.php",
+		"/C/xampp/htdocs/blogproject/web/index.php",
+		"/C/xampp/htdocs/blogproject/sass/styles.scss",
+		"/C/xampp/htdocs/blogproject/app/Hello.php",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_variables.scss",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/mixins/_size.scss",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_carousel.scss",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_grid.scss",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/_bootstrap.scss",
+		"/C/Users/br00t/Desktop/Working Progress/index.html",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/My Grid/index.html",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/My Grid/Style/css/style.css",
+		"/C/Users/br00t/Desktop/FRAMEWORKS/My Grid/Style/sass/style.scss",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/System32/drivers/etc/lmhosts.sam",
+		"/C/Windows/System32/drivers/etc/networks",
+		"/C/Windows/System32/drivers/etc/protocol",
+		"/C/Windows/System32/drivers/etc/services",
+		"/C/Windows/System32/fr-FR/hostname.exe.mui",
+		"/C/xampp/htdocs/index.php",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_footer.scss",
+		"/C/xampp/htdocs/FACEREWORKS/header.php",
+		"/C/xampp/htdocs/FACEREWORKS/google64ba0f8a19876e37.html",
+		"/C/xampp/htdocs/LoginPage/style/css/style.css",
+		"/C/xampp/htdocs/FACEREWORKS/footer.php",
+		"/C/xampp/htdocs/LoginPage/login.php",
+		"/C/xampp/htdocs/FACEREWORKS/login.php",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_login.scss",
+		"/C/xampp/htdocs/FACEREWORKS/galerie.php",
+		"/C/xampp/htdocs/FACEREWORKS/style/css/style.css",
+		"/C/xampp/htdocs/LoginPage/style/sass/_login.scss",
+		"/C/Users/br00t/Desktop/HTML_CV/style/scss/_annim.scss",
+		"/C/Users/br00t/Desktop/HTML_CV/style/scss/style.scss",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_galeriePage.scss",
+		"/C/xampp/htdocs/FACEREWORKS/index.php",
+		"/C/Users/br00t/AppData/Local/Temp/Rar$EXa0.188/standard.html",
+		"/C/Users/br00t/Desktop/html/index.html",
+		"/C/Users/br00t/Desktop/html/css/style.css",
+		"/C/Users/br00t/Desktop/Mon Site/index.html",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_contenuAccueil.scss",
+		"/C/xampp/htdocs/PDO/index.php",
+		"/C/xampp/htdocs/FACEREWORKS/presentation.php",
+		"/C/xampp/htdocs/FORMULAIRE/formulaire.php",
+		"/C/Users/br00t/Desktop/HTML_CV/style/scss/_nav.scss",
+		"/C/Users/br00t/Desktop/HTML_CV/index.html",
+		"/C/Users/br00t/Desktop/HTML_CV/style.css",
+		"/C/xampp/htdocs/FACEREWORKS/fabrik.php",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_fabrikPage.scss",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_header.scss",
+		"/C/xampp/htdocs/FACEREWORKS/Contactfab.php",
+		"/C/xampp/htdocs/FACEREWORKS/js/script.js",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/style.scss",
+		"/C/xampp/htdocs/FACEREWORKS/frameworks/materialize.css",
+		"/C/xampp/htdocs/FACEREWORKS/articles/article2.php",
+		"/C/xampp/htdocs/FACEREWORKS/articles/article3.php",
+		"/C/xampp/htdocs/FACEREWORKS/articles/article1.php",
+		"/C/xampp/htdocs/FACEREWORKS/articles/article4.php",
+		"/C/Users/br00t/Desktop/FaceMoulins-master/index.php",
+		"/C/Users/br00t/Desktop/FaceMoulins-master/presentation.php",
+		"/C/xampp/htdocs/FACEREWORKS/article2.php",
+		"/C/xampp/htdocs/FACEREWORKS/article1.php",
+		"/C/xampp/htdocs/FORMULAIRE/exercice2.php",
+		"/C/xampp/htdocs/FORMULAIRE/index.php",
+		"/C/Users/br00t/Downloads/exo3.php",
+		"/C/xampp/htdocs/FORMULAIRE/exercice3.php",
+		"/C/xampp/htdocs/FACEREWORKS/.git/COMMIT_EDITMSG",
+		"/C/xampp/htdocs/FACEREWORKS/.git/info/exclude",
+		"/C/xampp/htdocs/FACEREWORKS/.git/logs/refs/heads/correctionHome",
+		"/C/xampp/htdocs/FACEREWORKS/.git/HEAD",
+		"/C/xampp/htdocs/FACEREWORKS/.git/FETCH_HEAD",
+		"/C/xampp/htdocs/FACEREWORKS/.git/ORIG_HEAD",
+		"/C/xampp/htdocs/FACEREWORKS/.git/logs/refs/heads/master",
+		"/C/xampp/htdocs/FACEREWORKS/.git/refs/heads/master",
+		"/C/xampp/htdocs/FACEREWORKS/.git/description",
+		"/C/xampp/htdocs/FACEREWORKS/.git/logs/HEAD",
+		"/C/xampp/htdocs/FACEREWORKS/.git/index",
+		"/C/xampp/htdocs/FACEREWORKS/.git/config",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_contactPage.scss",
+		"/C/xampp/htdocs/FORMULAIRE/style/sass/style.scss",
+		"/C/Users/br00t/Desktop/header.php",
+		"/C/Users/br00t/AppData/Local/Temp/Rar$EXa0.230/clean_classy_registration/index.html",
+		"/C/Users/br00t/AppData/Local/Temp/Rar$DRa0.276/faceMoulins-projet_commun--master/css/css/style.css",
+		"/C/Users/br00t/AppData/Local/Temp/Rar$DRa0.844/faceMoulins-projet_commun--master/css/css/style.css",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_presentation.scss",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/__header.scss",
+		"/C/xampp/htdocs/FACEREWORKS/style/sass/_présentation.scss",
+		"/C/xampp/htdocs/FACEREWORKS/css/style.css",
+		"/C/xampp/htdocs/FACEREWORKS/header.html",
+		"/C/Users/br00t/Desktop/starting_php/index.php",
+		"/C/Users/br00t/Desktop/Mon Site/style/css/grayscale.css",
+		"/C/xampp/htdocs/starting_php/date.php",
+		"/C/xampp/htdocs/FACEBORBONNAIS/index.php",
+		"/C/Users/br00t/Desktop/Mon Site/js/grayscale.js",
+		"/C/xampp/htdocs/OBJET/class.php",
+		"/C/xampp/htdocs/starting_php/style/css/style.css",
+		"/C/xampp/htdocs/starting_php/index.php",
+		"/C/xampp/htdocs/starting_php/superglobal2.php",
+		"/C/xampp/htdocs/starting_php/superglobal.php",
+		"/C/xampp/htdocs/starting_php/user.php",
+		"/C/xampp/htdocs/starting_php/parametre.php",
+		"/C/xampp/htdocs/starting_php/parametre/exercice4.php",
+		"/C/xampp/htdocs/starting_php/parametre/exercice2.php",
+		"/C/xampp/htdocs/starting_php/parametre/exercice1.php",
+		"/C/xampp/htdocs/starting_php/tableau.php",
+		"/C/xampp/htdocs/starting_php/fonction.php",
+		"/C/xampp/htdocs/starting_php/condition.php",
+		"/C/xampp/htdocs/starting_php/boucle.php",
+		"/C/xampp/htdocs/coming/index.php",
+		"/C/Users/br00t/Desktop/coming/style.css",
+		"/C/Users/br00t/Desktop/coming/index.html",
+		"/C/Users/br00t/Desktop/Page Coming/script.js",
+		"/C/Users/br00t/Desktop/Page Coming/index.php",
+		"/C/Users/br00t/Desktop/Page Coming/style.css",
+		"/C/xampp/htdocs/FACEREWORKS/PHPMailer/class.smtp.php",
+		"/C/Users/br00t/Desktop/Mon Site/js/grayscale.min.js",
+		"/C/xampp/htdocs/starting_php/style/sass/style.scss",
+		"/C/xampp/htdocs/starting_php/variable.php",
+		"/C/xampp/htdocs/starting_php/.git/index"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Virtual",
+			"recherche",
+			"EE6E73",
+			"li",
+			"nav",
+			"navbar",
+			"header",
+			"top",
+			"INSERT TO INTO nomdelatable SET",
+			">\n",
+			"i",
+			"gtitre",
+			"img",
+			"intro-bg",
+			"img",
+			".jpg",
+			"intro-bg.jpg",
+			"intro-bg",
+			"}",
+			"BOWLING",
+			"article",
+			"\t\n",
+			"container",
+			">",
+			" \n",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\xampp\\htdocs\\FACEREWORKS"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\LoginPage"
+		},
+		{
+			"path": "C:\\xampp\\htdocs\\blogproject"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Autoloader.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pages/templates/default.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
