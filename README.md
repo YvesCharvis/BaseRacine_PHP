@@ -74,8 +74,3 @@ LEFT JOIN permet de lié une colonne as un table
             ON "
 
 
-
-
-
-
-

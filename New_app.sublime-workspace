@@ -520,30 +520,20 @@
 	"buffers":
 	[
 		{
-			"file": "app/Autoloader.php",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 397,
+				"buffer_size": 1966,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pages/templates/default.php",
+			"file": "web/scripts/bootstrap.min.js",
 			"settings":
 			{
-				"buffer_size": 1653,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Database.php",
-			"settings":
-			{
-				"buffer_size": 1077,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 37045,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -579,7 +569,7 @@
 				"Set Syntax: Markdown"
 			]
 		],
-		"width": 432.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -599,25 +589,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/blogproject",
-		"/C/xampp/htdocs/blogproject/app",
-		"/C/xampp/htdocs/blogproject/pages",
-		"/C/xampp/htdocs/blogproject/pages/templates",
-		"/C/xampp/htdocs/blogproject/sass",
-		"/C/xampp/htdocs/blogproject/web"
+		"/C/xampp/htdocs/blogproject"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/blogproject/README.md",
 		"/C/xampp/htdocs/blogproject/app/Autoloader.php",
+		"/C/xampp/htdocs/blogproject/app/Categorie.php",
+		"/C/Users/br00t/AppData/Roaming/Sublime Text 3/Packages/ChangeQuotes/ChangeQuotes.sublime-settings",
+		"/C/xampp/htdocs/blogproject/web/css/styles.css",
+		"/C/xampp/htdocs/blogproject/pages/home.php",
+		"/C/xampp/htdocs/blogproject/app/App.php",
+		"/C/xampp/htdocs/blogproject/app/Database.php",
+		"/C/xampp/htdocs/blogproject/web/index.php",
+		"/C/xampp/htdocs/blogproject/pages/templates/default.php",
+		"/C/xampp/htdocs/blogproject/web/README.md",
+		"/C/xampp/htdocs/blogproject/README.md",
 		"/C/Users/br00t/AppData/Local/Temp/Rar$DIa0.992/Database.php",
 		"/C/xampp/htdocs/blogproject/app/Tables/Articles.php",
-		"/C/xampp/htdocs/blogproject/app/Database.php",
 		"/C/xampp/htdocs/blogproject/app/Articles.php",
 		"/C/xampp/htdocs/blogproject/pages/template/default.php",
 		"/C/xampp/htdocs/blogproject/pages/single.php",
-		"/C/xampp/htdocs/blogproject/pages/home.php",
-		"/C/xampp/htdocs/blogproject/web/index.php",
 		"/C/xampp/htdocs/blogproject/sass/styles.scss",
 		"/C/xampp/htdocs/blogproject/app/Hello.php",
 		"/C/Users/br00t/Desktop/FRAMEWORKS/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_variables.scss",
@@ -729,13 +720,7 @@
 		"/C/Users/br00t/Desktop/coming/style.css",
 		"/C/Users/br00t/Desktop/coming/index.html",
 		"/C/Users/br00t/Desktop/Page Coming/script.js",
-		"/C/Users/br00t/Desktop/Page Coming/index.php",
-		"/C/Users/br00t/Desktop/Page Coming/style.css",
-		"/C/xampp/htdocs/FACEREWORKS/PHPMailer/class.smtp.php",
-		"/C/Users/br00t/Desktop/Mon Site/js/grayscale.min.js",
-		"/C/xampp/htdocs/starting_php/style/sass/style.scss",
-		"/C/xampp/htdocs/starting_php/variable.php",
-		"/C/xampp/htdocs/starting_php/.git/index"
+		"/C/Users/br00t/Desktop/Page Coming/index.php"
 	],
 	"find":
 	{
@@ -808,89 +793,59 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Autoloader.php",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 397,
+						"buffer_size": 1966,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								1964,
+								1964
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "pages/templates/default.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1146,
-								1146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 807.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/Database.php",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "web/scripts/bootstrap.min.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1077,
+						"buffer_size": 37045,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

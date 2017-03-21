@@ -15,7 +15,7 @@ class Database
 	private $pdo;
 
 
-	function __construct($db_name, $db_user='root', $db_pass='', $db_host='localhost')
+	function __construct($db_name, $db_user='live', $db_pass='live', $db_host='localhost')
 	{
 			$this->db_name= $db_name;
 			$this->db_user= $db_user;
@@ -35,14 +35,20 @@ class Database
 	public function query($statement, $class_name){
 
 		$req = $this->getPdo()->query($statement);
-		$datas = $req->fetchAll(PDO::FETCH_CLASS, $class_name);
+		$req->setFetchMode(PDO::FETCH_CLASS, $class_name);
+		$datas = $req->fetchAll();
 		return $datas;
 	}
-	public function prepare($statement, $parametre){
+	public function prepare($statement, $parametre, $class_name, $one=false){
+		
 		$req = $this->getPdo()->prepare($statement);
 		$req->execute($parametre);
-		$req->setFetchMode(PDO::FETCH_OBJ);
-		$datas= $req->fetch();
+		$req->setFetchMode(PDO::FETCH_CLASS, $class_name);
+		if ($one===false){
+			$datas= $req->fetchAll();
+		}else{
+			$datas= $req->fetch();
+		}
 		return $datas;
 	}
 }

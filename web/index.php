@@ -18,6 +18,10 @@ ob_start();
 		require '../pages/home.php';
 	}elseif($page=== "article"){
 		require '../pages/single.php';
+	}elseif($page=== "categorie"){
+		require '../pages/categorie.php';
+	}else{
+		require '../pages/404.php';
 	}
 	
 $content = ob_get_clean();
