@@ -5,12 +5,12 @@ namespace App;
 class App
 {
 	const DB_NAME='newapp';
-	const DB_USER='live';
-	const DB_PASS='live';
+	const DB_USER='root';
+	const DB_PASS='';
 	const DB_HOST='localhost';
 
 	private static $database;
-	private static $title = 'mon super site';
+	private static $title = 'BlogProject';
 
 	public static function getDb(){
 		if(self::$database===null){
