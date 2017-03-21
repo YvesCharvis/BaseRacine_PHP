@@ -12,8 +12,10 @@
                                                         require '../app/Autoloader.php';
                                                         ?>
 
--app ------- |-Autoloader.php
+-app ------- |----------------------> Tables|
+             |-Autoloader.php               |- Article.php
              |-Database.php
+             |-App.php
 
 
 -pages ------- |-home.php
@@ -21,7 +23,12 @@
                |                     |-Default.php
                |-single.php
 
+-sass---| 
+        |-Style.scss
 
+-README.MD
+-sassScript.bat
+-New_app.sublime-workspace
 
 ##PDO
 
@@ -52,6 +59,22 @@ $datas =$statement->fetchAll(PDO::FETCH_OBJ);
 *
 L'objectif es de mettre des articles dans une base de données, 
 Et de les chargés et les mettre en formes automatiquements, et avoir une mains facile sur les modifications. *
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+Class de tables 
+
+Catégoriser des articles a l'aide d'ID dans la Base de données.
+
+LEFT JOIN permet de lié une colonne as un table
+#exemple : "SELECT
+            FROM 
+            LEFT JOIN
+            ON "
+
+
+
 
 
 
