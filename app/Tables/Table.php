@@ -12,10 +12,10 @@ class Table
 
 	private static function getTable(){ 							// création de la fonction Table statice et protect
 		if(static::$table===null){									//Si elle es null 
-			$class_name = explode('\\', get_called_class());		//
-			static::$table = strtolower(end($class_name))."s";
+			$class_name = explode('\\', get_called_class());		//ça sépare une chaine de carractère  pour en faire un tableau a chaque "\"
+			static::$table = strtolower(end($class_name))."s";		// Transforme en minuscule et rajoute un s
 		}
-		return static::$table;
+		return static::$table; // retour de table 
 		
 	}
 
@@ -25,7 +25,7 @@ class Table
 			SELECT * 
 			FROM ".static::getTable()."
 			", get_called_class());
-	}
+	} 																//Retour depuis le dossier App
 	
 	public function __get($key){
 		$method = 'get'.ucfirst($key);
