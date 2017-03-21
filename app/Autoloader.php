@@ -2,11 +2,11 @@
 namespace App;
 
 /**
-* Autoloader
+* Autoloader charge toute les class dont nous avons besoins.
 */
 class Autoloader  // Evite conflit entre __Autoloade et evite le require 
 {
-		static function register(){
+		static function register(){ // Fonction qui active lautoloade en tant qu'inplementation de __autoload
 			spl_autoload_register(array(__CLASS__, 'autoload')); 
 		}
 

@@ -10,9 +10,9 @@ class Table
 {
 	protected static $table;
 
-	private static function getTable(){
-		if(static::$table===null){
-			$class_name = explode('\\', get_called_class());
+	private static function getTable(){ 							// création de la fonction Table statice et protect
+		if(static::$table===null){									//Si elle es null 
+			$class_name = explode('\\', get_called_class());		//
 			static::$table = strtolower(end($class_name))."s";
 		}
 		return static::$table;
