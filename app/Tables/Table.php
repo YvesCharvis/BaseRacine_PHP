@@ -27,27 +27,27 @@ class Table
 			", get_called_class());
 	} 																//Retour depuis le dossier App
 	
-	public function __get($key){
-		$method = 'get'.ucfirst($key);
-		$this->$key = $this->$method();
-		return $this->$key;
+	public function __get($key){       
+		$method = 'get'.ucfirst($key);								//ucfirst met en maj la 1ier lettre
+		$this->$key = $this->$method(); 							//(objet->$key = object -->methode)
+		return $this->$key;											//transforme une variable en URL pour simplifié son appel
 
 	}
 
-	public static function find($id){
-		return App::getDb()->prepare("
+	public static function find($id){								//Selectionne toute la tablefunction qui permet de trouver uen id depuis le fichier app.php et de préparer la fonction getDb
+		return App::getDb()->prepare("      											
 			SELECT * 
 			FROM ".static::getTable()." 
-			WHERE id = ?",
+			WHERE id = ?",											//Recherche l'id ou elle est egale a ce qu'on nous cherchons 
 			[$id],
 			get_called_class(),
 			true);
 	}
-	public static function query($statement, $atribute = null, $one = false){
+	public static function query($statement,  , $one = false){
 		if ($atribute){
-			return App::getDb()->prepare($statement, $atribute, get_called_class(), $one);
+			return App::getDb()->prepare($statement, $atribute, get_called_class(), $one); // si null -> Prépare
 		}else{
-		 return App::getDb()->query($statement, get_called_class(), $one);
+		 return App::getDb()->query($statement, get_called_class(), $one); // sinon retuour sur query 
 		}
 		
 
