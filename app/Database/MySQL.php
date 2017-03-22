@@ -1,11 +1,11 @@
 <?php
-namespace App; //adresse l'espace pour les constantes, class etc etc évite les conflits | Travail dans l'espace App
+namespace App\Database; //adresse l'espace pour les constantes, class etc etc évite les conflits | Travail dans l'espace App
 use \PDO; // Ont appel la class PDO défini par php
 
 /**
 * connexion a la base de donnée
 */
-class Database
+class MysqlDatabase extends Database
 {	
 	private $db_name;  //Non de la table
 	private $db_user;  // Variable non modifiable, ni les echo utilisable seulement dans la classe

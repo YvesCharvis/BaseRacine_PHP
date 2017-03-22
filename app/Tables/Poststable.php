@@ -6,7 +6,7 @@ use App\App;
 /**
 * 
 */
-class Tables
+class PostsTable extends Tables
 {
 
 

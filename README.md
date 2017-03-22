@@ -18,6 +18,9 @@
              |-App.php
 
 
+-config----------------|-config.php             
+
+
 -pages ------- |-home.php
                |-template -----------|
                |                     |-Default.php
@@ -74,3 +77,38 @@ LEFT JOIN permet de lié une colonne as un table
             ON "
 
 
+DYSIGNE PATHERM \\ Manière de codage
+
+
+
+instancié une class une seul fois dans App/Config.php
+
+
+
+
+##Dossier demo :
+
+
+
+
+CarFactory::getCar()
+
+
+
+Class de Car Factory 
+<?php
+
+
+
+class CarFactory{
+  public static function getCar($type){
+  $type = ucfirst($type);
+  $class_name = "Car$type" //Car4x4
+  return new $class_name();
+
+
+  }
+}
+
+l'appelle :
+$voiture1 = CarFactory::getCar('4x4'); // reponse Car4x4

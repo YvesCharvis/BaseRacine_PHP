@@ -4,36 +4,31 @@ namespace App; 							//adresse l'espace pour les constantes, class etc etc évi
 
 class App
 {
-	const DB_NAME='newapp'; 			// Création de constante Dans la classe qui nous permetrons de nous connecter a la DB
-	const DB_USER='root';
-	const DB_PASS='';
-	const DB_HOST='localhost';
 
-	private static $database;
-	private static $title = 'BlogProject';
+public $titre = 'Blog Project';
+private static $_instance;
+private $db_instance;
 
-	public static function getDb(){
-		if(self::$database===null){ 	 // Si $satabase === null ont crée une nouvelle database
-			self::$database = new Database(
-				self::DB_NAME,           //Self est utilisé pour les constantes (vu qu'il son non modifiable) sinon c'est this
-				self::DB_USER,
-				self::DB_PASS,
-				self::DB_HOST
-				);
+public static function getInstance(){
+	if(self::$_instance===NULL){
+	self::$_instance = new App();
+	}
+	return self::$_instance;
+}
+
+	public static fonction getTable($name){
+		$class_name = 'App\\Tables\\'.ucfirst($name).'Table';
+		return new $class_name();
+	}
+
+	public fonction getDb(){
+		$config = Config::getinstance();
+		if (is_null($this->db_instance)){
+			$this->db_instance = new database();
+			$config->get('db_name');
+
+			
 		}
-		return self::$database;
+	}
 
-	}
-	public static function notFound(){
-		header("HTTP/1.0 404 Not Found");
-		header('location: index.php?p=404'); // en raport avec ob_start();	dans l'index la page mise en cache
-	}
-	public static function getTitle()
-	{
-		return self::$title;
-	}
-		public static function setTitle($name)
-	{
-		self::$title = $name." | ".self::$title;
-	}
 }
