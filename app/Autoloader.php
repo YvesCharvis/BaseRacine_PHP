@@ -2,12 +2,12 @@
 namespace App;
 
 /**
-* Autoloader charge toute les class dont nous avons besoins.
+* Autoloader
 */
-class Autoloader  // Evite conflit entre __Autoloade et evite le require 
+class Autoloader
 {
-		static function register(){ // Fonction qui active lautoloade en tant qu'inplementation de __autoload
-			spl_autoload_register(array(__CLASS__, 'autoload')); 
+		static function register(){
+			spl_autoload_register(array(__CLASS__, 'autoload'));
 		}
 
 		static function autoload($class)
@@ -16,7 +16,7 @@ class Autoloader  // Evite conflit entre __Autoloade et evite le require
 				$class = str_replace(__NAMESPACE__.'\\', '', $class);
 				$class = str_replace('\\', '/', $class);
 
-				require  __DIR__.'/'.$class.'.php'; //Recupère la classe . PHP
+				require  __DIR__.'/'.$class.'.php';
 			}
 		}
 }

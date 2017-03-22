@@ -1,13 +1,14 @@
 <?php
-require '../app/Autoloader.php'; 			 //Ont charge la classe Autoloade 
+use App\Tables\PostsTable;
+use App\Autoloader;
+use App\App;
 
-App\Autoloader::register();					// Autoloade depuis le dossier App qui ce situe à la racine  Il app la class autoloader et appl la "fonction" register
+require '../app/Autoloader.php';
 
-$config = App\Config::getInstance();
-$app = App\App::getInstance();
+Autoloader::register();
 
-$post = App\App::getTable('posts');
+$app = App::getInstance();
+$db = $app->getDb();
 
-
-$app->getDb();
-?>
+$posts = new PostsTable($db);
+var_dump($posts);

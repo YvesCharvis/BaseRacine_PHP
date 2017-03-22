@@ -6,8 +6,8 @@ use App\App;
 /**
 * 
 */
-class PostsTable extends Tables
+class PostsTable extends Table
 {
-
+	protected $table = "articles";
 
 }

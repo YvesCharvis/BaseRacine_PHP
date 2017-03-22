@@ -1,26 +1,29 @@
 <?php
 namespace App;
-
 /**
-* INSTANCIER CONSTANT ET STATIC VARIABLE
+* class pour la configuration du site
 */
+
 class Config
 {
 	private static $_instance;
-	private $setting =[];
-	public $id;
-
+	private $settings = [];
 
 	public static function getInstance(){
- if(self::$_instance===NULL){
-		self::$_instance = new Config();
+		if(is_null(self::$_instance)){
+			self::$_instance = new Config();
 		}
 		return self::$_instance;
-										 }
+	}
+	
+	public function __construct(){
+		$this->settings = require dirname(__DIR__).'/config/config.php';
+	}
 
-	public function __construt(){
-		$this->setting = require dirname(__DIR__).'/config/config.php';
-		$id = uniqid();						}
-
-
+	public function get($key){
+		if (!isset($this->settings[$key])){
+			return null;
+		}
+		return $this->settings[$key];
+	}
 }

@@ -6,13 +6,13 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-   
+    <link rel="icon" href="../../favicon.ico">
 
     <title><?= \App\App::getTitle();?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="frameworks/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="framworks/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
 
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">BlogProjects</a>
+          <a class="navbar-brand" href="index.php">newapp</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">

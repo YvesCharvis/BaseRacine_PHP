@@ -6,8 +6,7 @@ use App\App;
 /**
 * 
 */
-class UsersTable extends Tables
+class CategoriesTable extends Table
 {
-
 
 }
