@@ -8,10 +8,10 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title><?= \App\App::getTitle();?></title>
+    <title><?= App::getInstance()->titre; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="framworks/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>

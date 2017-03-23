@@ -1,14 +1,22 @@
 <?php
-use App\Tables\PostsTable;
-use App\Autoloader;
-use App\App;
+define('ROOT', dirname(__DIR__));
+require ROOT.'/app/App.php';
+App::load();
 
-require '../app/Autoloader.php';
+if (isset($_GET['p'])) {
+	$page = $_GET['p'];
+}else{
+	$page = "home";
+}
 
-Autoloader::register();
 
-$app = App::getInstance();
-$db = $app->getDb();
-
-$posts = new PostsTable($db);
-var_dump($posts);
+ob_start();
+if ($page==='home') {
+	require ROOT.'/pages/posts/home.php';
+}if ($page==='posts.category') {
+	require ROOT.'/pages/posts/category.php';
+}if ($page==='posts.single') {
+	require ROOT.'/pages/posts/single.php';
+}
+$content = ob_get_clean();
+require ROOT.'/pages/templates/default.php'; 

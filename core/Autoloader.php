@@ -1,10 +1,9 @@
 <?php
-namespace App;
+namespace Core;
 
 /**
 * Autoloader
 */
-
 class Autoloader
 {
 		static function register(){
